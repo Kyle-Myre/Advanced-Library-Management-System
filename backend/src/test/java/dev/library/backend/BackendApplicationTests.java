@@ -1,10 +1,10 @@
-package com.bibliothque.app;
+package dev.library.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServerBibliothqueApplicationTests {
+class BackendApplicationTests {
 
 	@Test
 	void contextLoads() {

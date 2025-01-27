@@ -1,13 +1,13 @@
-package com.bibliothque.app;
+package dev.library.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServerBibliothqueApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServerBibliothqueApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 
 }
