@@ -22,7 +22,6 @@ public class Library {
     private String name;
     private String address;
     private String telephone;
-
     @OneToMany(mappedBy = "library")
     private List<Book> books;
 }

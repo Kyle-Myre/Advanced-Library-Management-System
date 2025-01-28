@@ -21,14 +21,11 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String username;
     private String password;
     private String fullName;
-
     @OneToMany(mappedBy = "user")
     private List<BorrowRecord> borrowRecords;
-    
     @Enumerated(EnumType.STRING)
     private Role role;
 }

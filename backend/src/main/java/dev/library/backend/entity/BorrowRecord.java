@@ -22,16 +22,12 @@ public class BorrowRecord {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private Date borrowDate;
     private Date returnDate;
-
     @ManyToOne
     private User user;
-
     @ManyToOne
     private Book book;
-
     @Enumerated(EnumType.STRING)
     private Status status;
 }
